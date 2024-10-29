@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Crime Boss Rockay City",
+        "genre": "Shooter",
+        "platform": "PC",
+        "year": "2024",
+        "image": "img/Crime-Boss-Rockay-City-Pivigames.webp"
+    },
+    {
+        "title": "Metal Gear Master Collection Vol. 1",
+        "genre": "Acción",
+        "platform": "PC, Switch",
+        "year": "2023",
+        "image": "img/Metal-Gear-Solid-Master-Collection-Pivigames.webp"
+    },
+    {
+        "title": "Age of Mythology Retold",
+        "genre": "Estrategia",
+        "platform": "PC",
+        "year": "2024",
+        "image": "img/Age-of-Mythology-Retold-Juego-PC-Espanol.webp"
+    },
+    {
+        "title": "The Sims 4",
+        "genre": "Simulacion",
+        "platform": "PC",
+        "year": "2024",
+        "image": "img/The-Sims-4-Ultima-Version-2020-PC-Español-Gratis.webp"
+    },
+    {
+        "title": "Fallout 4",
+        "genre": "Acción, Mundo abierto, Rol",
+        "platform": "PC",
+        "year": "2024",
+        "image": "img/Fallout-4-Free-Download.webp"
+    }
+]

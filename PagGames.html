@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blizzarro Games</title>
+    <link rel="stylesheet" href="PagGames.css"> <!-- Aquí va el CSS -->
+    <script src="PagGame.js" defer></script> <!-- Aquí va el JS -->
+</head>
+<body>
+    <!-- Header con barra de búsqueda y menú -->
+    <header>
+        <div class="logo">
+            <a href="#">GameLibrary</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="PagGames.html">Inicio</a></li>
+                <li><a href="#">Géneros</a></li>
+                <li><a href="#">Plataformas</a></li>
+                <li><a href="#">Populares</a></li>
+                <li><a href="#">Novedades</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar juegos...">
+            <button id="search-button">Buscar</button>
+        </div>
+    </header>
+
+    <!-- Filtros para seleccionar categorías -->
+    <section class="filters">
+        <h2>Filtrar Juegos</h2>
+        <div class="filter-group">
+            <label for="genre-filter">Género:</label>
+            <select id="genre-filter">
+                <option value="todos">Todos</option>
+                <option value="acción">Acción</option>
+                <option value="aventura">Aventura</option>
+                <option value="simulación">Simulación</option>
+                <option value="estrategia">Estrategia</option>
+                <option value="deportes">Deportes</option>
+                <option value="shooter">Shooter</option>
+                <option value="mundo_Abierto">Mundo_abierto</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="platform-filter">Plataforma:</label>
+            <select id="platform-filter">
+                <option value="todas">Todas</option>
+                <option value="pc">PC</option>
+                <option value="ps5">PS5</option>
+                <option value="xbox">Xbox</option>
+                <option value="switch">Switch</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="release-filter">Fecha de Lanzamiento:</label>
+            <select id="release-filter">
+                <option value="todos">Todas</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Sección principal de la lista de juegos -->
+    <section class="game-list">
+        <h2>Lista de Juegos</h2>
+        <div class="games">
+            <div class="game-card">
+                <img src="img/Crime-Boss-Rockay-City-Pivigames.webp" alt="Portada del juego">
+                <div class="game-info">
+                    <h3>Crime Boss Rockay City</h3>
+                    <p>Género: Shooter</p>
+                    <p>Plataforma: PC</p>
+                    <p>Año: 2024</p>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="img/Metal-Gear-Solid-Master-Collection-Pivigames.webp" alt="Portada del juego">
+                <div class="game-info">
+                    <h3>MetaI Gear Master Collection Vol. 1</h3>
+                    <p>Género: Acción</p>
+                    <p>Plataforma: PC, Switch</p>
+                    <p>Año: 2023</p>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                <img src="img/Age-of-Mythology-Retold-Juego-PC-Espanol.webp" alt="Portada del juego">
+                <div class="game-info">
+                    <h3>Age of Mythology Retold</h3>
+                    <p>Género: Estrategia</p>
+                    <p>Plataforma: PC</p>
+                    <p>Año: 2024</p>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="img/The-Sims-4-Ultima-Version-2020-PC-Español-Gratis.webp" alt="Portada del juego">
+                <div class="game-info">
+                    <h3>The sims 4</h3>
+                    <p>Género: Simulación</p>
+                    <p>Plataforma: PC</p>
+                    <p>Año: 2024</p>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="img/Fallout-4-Free-Download.webp" alt="Portada del juego">
+                <div class="game-info">
+                    <h3>Fallout 4</h3>
+                    <p>Género: Acción, Mundo_abierto, Rol</p>
+                    <p>Plataforma: PC</p>
+                    <p>Año: 2024</p>
+                </div>
+            </div>
+
+            <!-- Se seguirían añadiendo más juegos aquí -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Blizzarro Games. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
